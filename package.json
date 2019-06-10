@@ -1,0 +1,33 @@
+{
+  "name": "newsletter-signup-app",
+  "version": "1.0.0",
+  "description": "Newsletter app using Mailchimp",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelEncinasMartin/Newsletter-signup-app.git"
+  },
+  "author": "Joel Encinas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoelEncinasMartin/Newsletter-signup-app/issues"
+  },
+  "homepage": "https://github.com/JoelEncinasMartin/Newsletter-signup-app#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.18.3",
+    "email-templates": "^2.7.1",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2",
+    "package.json": "^2.0.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
